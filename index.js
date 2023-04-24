@@ -16,7 +16,7 @@ const carregalista = (json) => {
   const lista = document.querySelector("div.lista");
 
  
-  lista.innerHTML = `<a href ='p.html' onclick="fecharp()" type="submit" class="sairpesquisa"> <img src="img/aa6e2e44d114a56c22ceee95d27e248d.png" alt=""></a>`;
+  lista.innerHTML = `<a href ='https://miguelfranco27.github.io/movie-project/index.html' onclick="fecharp()" type="submit" class="sairpesquisa"> <img src="img/aa6e2e44d114a56c22ceee95d27e248d.png" alt=""></a>`;
   if (json.Response == "False") {
     alert("Nao encontrado");
     return;
