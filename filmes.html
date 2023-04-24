@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="filmes.css">
+    
+    <title>Projeto</title>
+</head>
+
+
+<body>
+
+<header >
+
+<button id="show" type="submit" onclick="showsearch()"> <img id="imglupa" src="img/lupa.png" alt=""> </button>
+
+<div id="modal">
+   
+<form>
+
+<input id="pesquisa" placeholder="Pesquisar..." >
+<button id="buttonpesquisa"  type="submit" > <img  src="img/lupa.png" alt=""> </button>
+</form>
+</div>
+
+<h1> MOVIE+</h1>
+
+<nav> 
+    
+     <aside>
+      
+
+<div id="seta"> </div> 
+
+  <a  onclick="rone()" href="#">Adicionados recentemente</a>
+  <a onclick="rtwo()" href="#">Populares</a>
+  <a onclick="rtree()" href="#">Series</a>
+  <a onclick="rfour()" href="#">Documentarios</a>
+     </aside>
+
+  <img id="imgperfil" src="img/perfil.jpg" alt="">
+    <button  id="buttonmenu" ><img id="imgmenu" src="img/menu.png" alt=""></button>
+  
+</nav>
+
+</header>
+
+     
+
+   <main>
+     
+
+ 
+    <div class="lista">
+         <div class="item"></div>
+</div>
+
+
+    <section id="categorias">
+
+     
+        <h2>Lançamentos</h2>
+        <div class="populares">
+            
+            <div class="item"></div>
+        </div>
+    </div>
+    <div>
+        <h2>Populares</h2>
+           <div class="originais">
+            <div class="item"></div>
+           </div> 
+        </div>
+
+        <div>
+            <h2>Series</h2>
+           <div class="comédias">
+            <div class="item"></div>
+           </div> 
+        </div>
+           
+        <div>
+            <h2>Documentarios</h2>
+           <div class="documentario">
+            <div class="item"></div>
+           </div>
+        </div>
+    </section>
+
+
+</main>
+
+
+
+
+   <div class="content">
+
+    
+    <div class="slides">
+       
+        <button type="submit" class="player"> <img src="img/player.png" alt=""> </button>
+        <button type="submit" onclick="rolar()" id="sabermais">Saber mais </button>
+       
+        <div class="sombra"></div>
+        <div class="sombravertical"></div>
+        <input class="input" type="radio" name="slide" id="slide1" checked>
+        <input class="input" type="radio" name="slide" id="slide2">
+        <input class="input" type="radio" name="slide" id="slide3">
+        <input class="input" type="radio" name="slide" id="slide4">
+        <input class="input" type="radio" name="slide" id="slide5">
+
+
+
+        
+        
+        <div class="slide s1">
+    
+     <img src="imgslide/img/tlou.webp">
+
+        </div>
+
+        <div class="slide">
+            <img src="imgslide/shazam.jpg" alt="">
+         
+        </div>
+
+        <div class="slide">
+            <img src="imgslide/sonic.jpg" alt="">
+           
+        </div>
+
+        <div class="slide">
+            <img src="imgslide/bigbang.jpg" alt="">
+            
+            
+        </div>
+
+        <div class="slide">
+        
+            <img src="imgslide/gato.jpg">
+          
+        </div>
+    </div>
+</div>
+
+<div class="navigation">
+   
+
+    <label class="bar" for="slide1"></label>
+    <label class="bar" for="slide2"></label>
+    <label class="bar" for="slide3"></label>
+    <label class="bar" for="slide4"></label>
+    <label class="bar" for="slide5"></label>
+
+</div>
+
+
+
+
+
+   <footer>
+
+    <div id="social">
+    <a href="https://www.youtube.com/"><img src="img/yt.png" alt=""></a>
+    <a href="https://www.instagram.com/"><img src="img/insta.png" alt=""></a>
+    <a href="https://pt-br.facebook.com"><img src="img/fc.png" alt=""></a>
+    <a href="https://twitter.com/"><img src="img/tw.png" alt=""></a>
+ </div>
+<div id="termos">
+    <a href="#">Privacidade</a>
+    <a href="#">Termos</a>
+    <a href="#">Ajuda</a>
+    <a href="#">Dispositivos</a>
+    <a href="#">Contato</a>
+
+</div>
+
+   </footer>
+
+<script  src="filmes.js" ></script>
+ 
+
+
+ 
+ </html>
